@@ -32,3 +32,9 @@ The results for the data are shown below:
 
 ### SUMMARY
 It seems the second model was able to produce better predictive modeling results with a higher accuracy rating and overall higher classification report. Therefore it seems the resampled data size was able to help with predicting high-risk loans.
+
+* Precision Score: Original data set produced a score of 85% and the resampled data produced 84%. This is a slight difference, so not much occured in this field.
+
+* Recall: The recall score saw an imporved score of 99% for the resampled data. The original data porduced a score of 91%. This helps with the models ablility to predict actual fraudulent transactions.  
+
+* F1 Score: The F1 scored improved from 88% from the original data to 91% with the resampled data. This is impressive and shows the Harmonic Mean value has  increased making the model more efficient and accurate.
